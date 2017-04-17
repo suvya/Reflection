@@ -4,4 +4,19 @@ it creates a .git folder.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is like a commit preparation area. Working directory is the directory on which you are developing the code or creating files initially on your computer. repository is the place on git where the files are commited to for collaborating. staging area prepares only the file needs to be commited to the repo and not all the files on the working area.
 
+How can you use the staging area to make sure you have one commit per logical change?
+just add the only file which have to be commited to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are created when some changes to be added just for testing or someother scope and not really to be included in the main branch.Branches help in keeping different ways of running a function.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help in understanding which commit is not reachable from the branches and if there is a need to create the new branch for this.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+result will be the changes from both the branches.to understand commit flow.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging helps when there are no conflicts and manual helps when there are conflicts.
+
 
